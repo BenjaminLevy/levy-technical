@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
+.contact-icon {
+
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2107,14 +2111,12 @@ input, select, textarea {
 	}
 
 	#form {
-		background-color: #a9d0f5;
-		/* background-color: #dcffa6; */
+		background-color: #accbfc;
 	}
 	#top {
 		padding: 4em 0 0em 0;
 		text-align: left;
-		background-color: #e6fcc2;
-		/* background-color: #dcffa6; */
+		background-color: #fff;
 	}
 
 		#top .image {
