@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-.contact-icon {
-
-}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -88,7 +85,7 @@ input, select, textarea {
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
-			-webkit-animation: none !important;
+			-5ebkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
 			-moz-transition: none !important;
@@ -1754,9 +1751,10 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
-	.dual-columns {
-	    columns: 2;
-    }
+            .dual-columns {
+                columns: 2;
+                max-width: fit-content;
+            }
 
 		ul li {
 			padding-left: 0.5em;
