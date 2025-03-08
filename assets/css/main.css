@@ -1149,6 +1149,10 @@ input, select, textarea {
 					width: 100%;
 				}
 
+                .col-4.col-5-large.col-12-medium {
+                    margin-top: 30px; /* prevents nav from overlapping profile picture on mobile */
+                }
+
 				.row > .off-12-medium {
 					margin-left: 100%;
 				}
@@ -2143,6 +2147,10 @@ input, select, textarea {
 
 	#contact footer {
 		font-size: 0.9em;
+	}
+
+	#contact {
+		margin-bottom: 100px;
 	}
 
 /* Copyright */
